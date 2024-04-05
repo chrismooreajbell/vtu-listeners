@@ -7,6 +7,9 @@ export default defineComponent({
       type: Function,
       default: undefined
     }
+  },
+  emit: {
+    delete: () => true
   }
 })
 </script>
