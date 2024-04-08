@@ -8,7 +8,7 @@ export default defineComponent({
       default: undefined
     }
   },
-  emit: {
+  emits: {
     delete: () => true
   }
 })
